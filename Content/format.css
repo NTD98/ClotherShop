@@ -1,0 +1,248 @@
+﻿body {
+    margin:0px auto;
+    padding:0px;
+    font-family:Tahoma;
+}
+#banner{width:100%;height:55px;margin:0 auto;position:relative;background-color:#ffffff;}
+#head{width:100%;height:25px;background-color:#ffffff; position:relative;}
+#title{ width:100%; height:25px; border-bottom: 1px solid gray; background-color:#ffffff; position:relative;}
+#content{width:100%;  background-color:red; z-index:1; height:auto;}
+#content .left{ width:80%; position:relative;float:right;}
+#content .right{  width:17%;margin-left:3%;   float:right;  height:auto; text-align:center;}
+#footer{   width:100%;    height:300px;    background-color:#EBEBEB;    float:left; padding-top:50px;margin-top:50px;}
+
+/*CSS phần trong bannner*/
+#banner .image{    margin-left: 100px;    margin-top:5px;     height:55px;     float:left;     }
+#banner .image a:hover{    opacity:0.6;}
+#banner .search input{  float:left; width:700px; height:30px; margin:9px 30px;  border-radius:2px;font-size:19px;}
+#banner .search button{    margin-left:-81px;    margin-top:10px;    background-color:white;    border-radius:4px;}
+#banner .search button img{   float:right;width:35px;    height:29px;    display:inline-block;}
+#banner .regester ul li a{    display: block;    text-decoration: none;    font-weight: bold;
+                              line-height:32px;    color:black;     line-height: 25px;     padding:0px 5px;} 
+#banner .regester ul{ list-style: none;    line-height: 25px;     float:left;     margin:-30px -60px;}
+#banner .regester ul li{      float:left;}
+#banner .regester a:hover{    color:blue;}
+#banner .basket a {   margin-left:160px;   margin-bottom:-50px;   position:absolute;   top:4px;}
+/* Css phần head*/
+#head .phone span{    text-align:left;    margin:auto 0px ;   float:left;    line-height:25px;   font-weight:bold;}
+#head .phone img{    float:left;}
+#head .connect{      float:right;}
+#head .connect span{    text-align:right;    margin:auto 0px;    float:left;    line-height:25px;  font-weight:bold;}
+#head .connect span a{   text-decoration:none;   color:black;}
+#head .connect span a:hover{  color:blue;}
+#head .connect span a img:hover{   opacity:0.6;}
+
+/*Css phần title*/
+#title a{  display: block;    text-decoration: none;    font-weight: bold;   color:gray;      padding:0px 15px;    }
+/*Tầng 1*/
+#title ul{    position: relative;    list-style: none;   line-height: 15px;  }
+#title ul li{    position: relative;    float:right;}
+
+
+/*Tầng 2*/
+#title li ul{   position: absolute;    display: none;    margin:0px;    padding:0px;    background-color:#ffffff;
+            left:15px;top:18px;    z-index:1;}
+#title li ul li{   width: auto;    margin:0px;    padding:0px;float:left;}
+#title li:hover ul ul{    display:none;}
+#title li:hover ul,
+#title li li:hover ul{display:block;line-height:30px;}
+#title a:hover{  color:red;}
+
+/* Css phần tạo tài khoản*/
+
+#content .left h4 {    color:darkblue;    font-size:20px;    text-align:center;}
+#content .left span{    margin-left:20%;    line-height:5px;    font-size:15px;    }
+#content .left input{    width:400px;    height:20px;    margin-left:20%;    padding:5px;    margin-bottom:20px;}
+#content .left button{  margin-left: 30%; background-color:cornflowerblue;  cursor:pointer;   width:100px;
+                       line-height:30px;  color:white;  }
+#content .left button:hover{  background-color:red;}
+#content .right h3{    margin-top:50px; }
+#content .left #spanHoTen {
+    margin-left: 0%;
+    line-height: 5px;
+    font-size: 15px;
+}
+#content .left #spanTaiKhoan {
+    margin-left: 0%;
+    line-height: 5px;
+    font-size: 15px;
+}
+#content .left #spanPass{
+    margin-left: 0%;
+    line-height: 5px;
+    font-size: 15px;
+}
+#content .left #spanEnterPass {
+    margin-left: 0%;
+    line-height: 5px;
+    font-size: 15px;
+}
+#content .left #spanEmail {
+    margin-left: 0%;
+    line-height: 5px;
+    font-size: 15px;
+}
+#content .left #spanDiaChi {
+    margin-left: 0%;
+    line-height: 5px;
+    font-size: 15px;
+}
+#content .left #spanSoDT{
+    margin-left: 0%;
+    line-height: 5px;
+    font-size: 15px;
+}
+/*Css phần log in*/
+#login { width:100%;height:400px;}
+#login .box h3{    text-align:center;}
+#login .box{     width:400px;    height:350px;    border:1px solid #91d646;   margin:15px auto; }
+#login .box span{    margin-left:10%;    line-height:5px;    font-size:15px; }
+#login input{    width:300px;    height:30px;    margin-left:10%;    padding:5px;    margin-bottom:15px;    border-radius:3px;}
+#login span a{    text-decoration:none;    float:right;    margin-right:25px;}
+#login .box .login_{   width:380px;    height:100px;    background-color:#ebebe0;    margin:15px auto;}
+#login .box .login_ input[type="checkbox"]{    margin-left:140px;    width:15px;    vertical-align:middle;    }
+#login .box .login_ input[type="submit"]{   width:300px;    color:black;    border-radius:5px;   background-color:cornflowerblue;}
+#login .box .login_ input[type="submit"]:hover{    background-color:red;    cursor:pointer;}
+
+/*Css phần footer*/
+#footer .address{    width:50%;   color:black;    float:left;}
+#footer .address span{   margin-left:20px;   margin-bottom:10px;}
+
+#footer .address h3{    text-align:center;    color:black;font-family:'Global Sans Serif';}
+#footer .address span {margin-bottom:10px;}
+#footer .policy{ width:25%;   float:left;}
+#footer .policy h3{   text-align:center;font-family:'Global Sans Serif';}
+#footer .policy ul li {  list-style:none;  margin:10px;}
+#footer .policy ul li a{    text-decoration:none;    color:black;}
+#footer .policy ul li a:hover{   color:blue;}
+#footer .acount{   width:25%;   float:left;}
+#footer .acount h3{    text-align:center;   color:black;font-family:'Global Sans Serif';}
+#footer .acount ul { padding:0;}
+#footer .acount ul li {   list-style:none;    margin:10px;width:fit-content;margin-left:auto;margin-right:auto}
+#footer .acount ul li a{    text-decoration:none;   color:black;}
+#footer .acount ul li a:hover{    color:blue;}
+
+/*Phần Footer_infor*/
+#footer_info{    width:80%;   height:auto;    background-color:whitesmoke;   margin:0 auto;}
+#footer_info h3{    text-align:center;    color:blue;    border-bottom:1px solid #ebebe0;}
+#footer_info img{     margin:0px auto;    vertical-align:middle;   }
+#footer_info b{   color:red;   line-height:10px;}
+#footer_info .paymethod b{   color:black;}
+#footer_info transit_method{     }
+#footer_info .address b{   color:black;}
+ 
+/*Css phần content left 80%*/
+#content .left .box-trang {
+    width: fit-content;
+    margin-right:auto;
+    margin-left:auto;
+}
+#content .left .box-trang .MenuTrang p {margin: 0 !important}
+#content .left .box-trang .MenuTrang .pagination-container ul {padding:0;width:fit-content;margin-left:auto;margin-right:auto; }
+#content .left .box-trang .MenuTrang .pagination-container ul li {padding-left:10px;}
+#content .left .box-cha{width:1020px;height: 1100px;margin-left:55px; margin-bottom:0px;}
+#content .left .box-con{ width:235px; height:400px; border:1px solid #ebebe0; float:left; margin:7px 10px 7px 7px; text-align:center;}
+#content .left .box-image{width:235px;height:280px;margin-bottom:10px;}
+#content .left .box-con:hover{border:1px solid red;}
+#content .left .box-image img {max-width:235px; max-height:280px; transition:1s;}
+#content .left .box-image img:hover{transform:scale(1.1,1);}
+#content .left .box-con a{color:black;text-decoration:none; }
+#content .left .box-con p{color:red;}
+
+/*Css phần content right 20%*/
+#content .right img{vertical-align:middle; margin-top:10px; margin-left:-60px;}
+#content .right b{vertical-align:middle;}
+#content .right .box-danhmuc{text-align:left; border:1px solid #ebebe0; width:220px;}
+#content .right .box-danhmuc input[type="checkbox"]{margin-bottom:10px; font-size:40px;}
+#content .right .box-price{text-align:left; border:1px solid #ebebe0; width:220px; margin-top:10px;}
+#content .right .box-price input[type="text"]{ width:90px;height:30px; margin-left:7px;}
+#content .right .submit{ margin-top:10px;float:left; margin-left:0px;height:auto; }
+#content .right .submit input[type="submit"]{width:220px;height:30px;font-size:18px;background-color:cornflowerblue;
+                               cursor:pointer;}
+#content .right .submit  input[type="submit"]:hover{background-color:red;color:white;}
+#content .right .submit button{width:220px;height:30px;font-size:18px;background-color:cornflowerblue;
+                               cursor:pointer}
+#content .right .submit  button:hover{background-color:red;color:white;}
+#content .right .introduce{width:220px;height:400px;margin-top:130px;}
+#content .right .introduce .introduce-tittle{ width:220px;height:30px;background-color:#a8e5ec;line-height:25px;}
+#content .right .introduce .introduce-content {  margin-top: 15px;}
+#content .right .introduce .introduce-content img{float:left;margin:1px;}
+#content .right .introduce .introduce-content span{ font-size:15px;float:left;}
+
+/*Css phần chi tiết sản phẩm*/
+#content-chitietsp{width:100%; background-color:whitesmoke; height:auto; }
+#content-chitietsp .info{ width:1215px;height:auto;background-color:white;margin:10px auto;}
+#content-chitietsp .info .box-image{width:480px;height:500px; text-align:center; border:1px solid whitesmoke;}
+#content-chitietsp .info .box-image img{max-width:450px;max-height:480px; margin:0 auto;}
+#content-chitietsp .info .box-buy{width:730px; height:auto;float:right; margin-top:-41%;}
+#content-chitietsp .info .box-buy p{font-size:25px; margin:20px;}
+#content-chitietsp .info .box-buy .box-price{ width:650px;height:50px;background-color:white;
+                                    margin-left:40px;text-align:center;line-height:35px;}
+#content-chitietsp .info .box-buy .box-price p{color:black; font-family:Arial, Helvetica, sans-serif;}
+#content-chitietsp .info .size{ width:80px;height:30px;margin:15px 7px;cursor:pointer;}
+#content-chitietsp .info .size:focus{background-color:red;}
+#content-chitietsp .info span{margin-left:20px;}
+#content-chitietsp .info .quantity{cursor:pointer;}
+#content-chitietsp .info input[type="text"]{width:40px;text-align:center; }
+#content-chitietsp .info .box-buy .them-vao-gio{width:150px;height:40px;background-color: #000000b5;cursor:pointer;margin:15px;color:white}
+#content-chitietsp .info .box-buy .mua-ngay{width:150px;height:40px;background-color:#db331f;cursor:pointer; margin:15px;color:white;}
+
+#content-chitietsp .info .detail{width:1215px;height:400px; margin-top:20px;}
+#content-chitietsp .info .detail .box-detail{width:1180px;height:40px;background-color:whitesmoke;line-height:40px; margin:10px auto;}
+#content-chitietsp .info .detail .title{color:#acac86; padding:10px;line-height:40px;}
+
+/*Css phần NhanVienController */
+#banner .chu{text-align:center;}
+#banner .chu span{color:red;line-height:50px;margin-left:-150px;font-size:20px;}
+#login_nhanvien{width:95%;height:300px;background-color:none; margin:10px auto;}
+#login_nhanvien .box{width:30%;height:260px;text-align:center; background-color:white;margin:0px auto; 
+                       line-height:20px; border:1px solid #91d646}
+#login_nhanvien .box h3{color:blue;}
+#login_nhanvien .box input[type="text"]{width:250px;height:30px;}
+#login_nhanvien .box input[type="password"]{width:250px;height:30px;}
+#login_nhanvien .box input[type="submit"]{cursor:pointer;background-color:cornflowerblue;width:250px;height:30px;font-size:15px;}
+#login_nhanvien .box input[type="submit"]:hover{background-color:red;color:white;}
+#login_nhanvien .box a{color:blue;text-decoration:none;}
+ 
+#san_pham{width:95%;height:400px;background-color:red; margin:10px auto;}
+ 
+/*Css phần thanh toán*/
+#content-thanhtoan{width:100%;height:auto;background-color:whitesmoke ; }
+#content-thanhtoan .address-recive{width:95%;height:115px;margin:0px auto;background-color:white;}
+#content-thanhtoan .address-recive b{color:red;padding-left:10px; }
+#content-thanhtoan .address-recive span{padding-left:25px;line-height:25px; }
+
+#content-thanhtoan .basket-product{width:95%;height:70px; margin:10px auto;background-color:white; }
+#content-thanhtoan .basket-product b{color:red;padding-left:30px; }
+#content-thanhtoan .basket-product ul {list-style:none; float:right;}
+#content-thanhtoan .basket-product ul li{ float:left; margin-right:120px;line-height:40px;color:gray;} 
+
+#content-thanhtoan .basket-product-detail{width:95%;height:auto; margin:10px auto;background-color:white; text-align:center; }
+
+#content-thanhtoan .basket-product-detail  .basket-product-detail-box{border-bottom:1px dashed gray;width:100%;height:140px;text-align:center;}
+#content-thanhtoan .basket-product-detail ul {list-style:none; float:right;}
+#content-thanhtoan .basket-product-detail ul li{ float:left; margin-right:140px;line-height:40px;color:gray;}
+#content-thanhtoan .basket-product-detail a{text-decoration:none;color:gray;}
+#content-thanhtoan .basket-product-detail a:hover{color:red; }
+#content-thanhtoan .basket-product-detail input[type="text"]{width:30px;text-align:center;}
+#content-thanhtoan .basket-product-detail button:hover{cursor:pointer; }
+#content-thanhtoan .basket-product-detail .box{width:100px;height:120px; margin:-10px -230px; border:1px solid blue;}  
+#content-thanhtoan .basket-product-detail .box img{max-width:100px;max-height:120px; } 
+ 
+#content-thanhtoan .basket-product-pay-method{ width:95%;height:100px; margin:10px auto;background-color:white; }
+#content-thanhtoan .basket-product-pay-method b{color:red;padding-left:30px; }
+#content-thanhtoan .basket-product-pay-method .text {float:right;margin-right:100px; }
+#content-thanhtoan .basket-product-pay-method .sum-money{margin-left:30px;line-height:40px;}
+#content-thanhtoan .basket-product-pay-method input{width:400px;height:35px;margin-left:250px;margin-top:20px;background-color:#6495ed;}
+#content-thanhtoan .basket-product-pay-method input:hover{background-color:red;color:white; cursor:pointer; }
+
+/*Css phần admin*/
+#banner .admin{text-align:center;}
+#banner .admin span{color:blue;line-height:50px;margin-left:-150px;font-size:20px;}
+#acount_manager {width:95%;height:400px;background-color:whitesmoke; margin:10px auto;}
+#acount_manager ul{list-style:none;}
+#acount_manager ul li{line-height:30px;text-align:center;}
+#acount_manager ul li a{text-decoration:none;display:block;border:1px solid gray;width:150px; margin-bottom:5px;
+                        background-color:aqua; border-radius:5px; }
+#acount_manager ul li a:hover{background-color:turquoise;color:white;}
+  

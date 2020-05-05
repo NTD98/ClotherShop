@@ -6,7 +6,8 @@ bin-release/
 
 # Other files and folders
 .settings/
-
+Clothes_Shop.csproj
+Clothes_Shop.csproj.user
 # Executables
 *.swf
 *.air
